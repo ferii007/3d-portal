@@ -23,8 +23,8 @@ window.addEventListener('resize', () => {
 
 const Portal = () => {
 
-    const portalGLTFModel = useLoader(GLTFLoader, process.env.PUBLIC_URL + "models/portal.glb");
-    const portalGLTFMask = useLoader(GLTFLoader, process.env.PUBLIC_URL + "models/portal_mask.glb");
+    const portalGLTFModel = useLoader(GLTFLoader, process.env.PUBLIC_URL + "/models/portal.glb");
+    const portalGLTFMask = useLoader(GLTFLoader, process.env.PUBLIC_URL + "/models/portal_mask.glb");
 
     useFrame((state) => {
         state.gl.setRenderTarget(target);

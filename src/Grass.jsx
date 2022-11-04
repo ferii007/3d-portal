@@ -7,7 +7,7 @@ import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader"
 
 const Grass = () => {
 
-    const grassGLTF = useLoader(GLTFLoader, process.env.PUBLIC_URL + "models/grass.glb");
+    const grassGLTF = useLoader(GLTFLoader, process.env.PUBLIC_URL + "/models/grass.glb");
 
     useEffect(() => {
         if(!grassGLTF) return;

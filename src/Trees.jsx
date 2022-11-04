@@ -4,7 +4,7 @@ import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader"
 
 const Trees = () => {
 
-    const treesGLTF = useLoader(GLTFLoader, process.env.PUBLIC_URL + "models/trees.glb");
+    const treesGLTF = useLoader(GLTFLoader, process.env.PUBLIC_URL + "/models/trees.glb");
 
     useEffect(() => {
         if(!treesGLTF) return;
