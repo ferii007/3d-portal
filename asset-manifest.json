@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/3d-portal/static/css/main.2d443f84.css",
+    "main.js": "/3d-portal/static/js/main.0339ff94.js",
+    "index.html": "/3d-portal/index.html",
+    "main.2d443f84.css.map": "/3d-portal/static/css/main.2d443f84.css.map",
+    "main.0339ff94.js.map": "/3d-portal/static/js/main.0339ff94.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d443f84.css",
+    "static/js/main.0339ff94.js"
+  ]
+}
